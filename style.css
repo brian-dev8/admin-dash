@@ -29,7 +29,7 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
+    grid-template-columns: .75fr 1.5fr 1.5fr 1fr;
     grid-template-rows: 150px;
     height: 100%;
 }
@@ -185,7 +185,7 @@ body {
     grid-row: 2 / 5;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 25px;
 }
 
 .card {
@@ -195,7 +195,6 @@ body {
     line-height: 1;
     box-shadow: var(--card-box-shadow);
     border-left: 5px solid rgb(218, 128, 25);
-    margin: 4px;
     display: grid;
     grid-template-rows: 16px 1fr 25px;
 }
@@ -225,6 +224,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 20px;
 }
 
 .annoucements {
@@ -264,7 +264,11 @@ body {
 
 .trending {
     display: grid;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 30px 1fr;
+}
+
+.trending-header span {
+    font-weight: bold;
 }
 
 .trending-content {
